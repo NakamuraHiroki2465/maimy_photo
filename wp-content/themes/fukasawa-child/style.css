@@ -1,0 +1,16 @@
+/*
+Theme Name: maiyamada
+Template: fukasawa
+*/
+
+.aligncenter img {
+	border-style:none;
+}
+
+.post-content .aligncenter {
+	margin-bottom: 0em;
+}
+
+.wp-block-colums {
+	flex-wrap:nowrap!important;
+}
