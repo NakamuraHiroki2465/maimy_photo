@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	profile PLAN へのコメント	</title>
-	<atom:link href="/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB-plan/feed/" rel="self" type="application/rss+xml" />
-	<link>/%e3%83%97%e3%83%ad%e3%83%95%e3%82%a3%e3%83%bc%e3%83%ab-plan/</link>
+	<atom:link href="https://nakamurahiroki2465.github.io/maimy_photo/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB-plan/feed/" rel="self" type="application/rss+xml" />
+	<link>https://nakamurahiroki2465.github.io/maimy_photo/%e3%83%97%e3%83%ad%e3%83%95%e3%82%a3%e3%83%bc%e3%83%ab-plan/</link>
 	<description>出張撮影カメラマン</description>
 	<lastBuildDate>Sat, 03 Jun 2023 09:28:17 +0000</lastBuildDate>
 	<sy:updatePeriod>
