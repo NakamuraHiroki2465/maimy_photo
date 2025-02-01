@@ -10,7 +10,6 @@
 <meta name="robots" content="max-image-preview:large">
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
 	<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
-<link rel="dns-prefetch" href="//www.google.com">
 <link rel="alternate" type="application/rss+xml" title="maimy photo &raquo; フィード" href="https://nakamurahiroki2465.github.io/maimy_photo/feed/">
 <link rel="alternate" type="application/rss+xml" title="maimy photo &raquo; コメントフィード" href="https://nakamurahiroki2465.github.io/maimy_photo/comments/feed/">
 <script type="text/javascript">
@@ -176,46 +175,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 		<!-- Instagram Feed JS -->
 <script type="text/javascript">var sbiajaxurl = "https://nakamurahiroki2465.github.io/maimy_photo/wp-admin/admin-ajax.php";</script>
 <style id="core-block-supports-inline-css" type="text/css">.wp-container-core-columns-is-layout-1{flex-wrap:nowrap;}</style>
-<script type="text/javascript" id="google-invisible-recaptcha-js-before">
-/* <![CDATA[ */
-var renderInvisibleReCaptcha = function() {
-
-    for (var i = 0; i < document.forms.length; ++i) {
-        var form = document.forms[i];
-        var holder = form.querySelector('.inv-recaptcha-holder');
-
-        if (null === holder) continue;
-		holder.innerHTML = '';
-
-         (function(frm){
-			var cf7SubmitElm = frm.querySelector('.wpcf7-submit');
-            var holderId = grecaptcha.render(holder,{
-                'sitekey': '', 'size': 'invisible', 'badge' : 'bottomright',
-                'callback' : function (recaptchaToken) {
-					if((null !== cf7SubmitElm) && (typeof jQuery != 'undefined')){jQuery(frm).submit();grecaptcha.reset(holderId);return;}
-					 HTMLFormElement.prototype.submit.call(frm);
-                },
-                'expired-callback' : function(){grecaptcha.reset(holderId);}
-            });
-
-			if(null !== cf7SubmitElm && (typeof jQuery != 'undefined') ){
-				jQuery(cf7SubmitElm).off('click').on('click', function(clickEvt){
-					clickEvt.preventDefault();
-					grecaptcha.execute(holderId);
-				});
-			}
-			else
-			{
-				frm.onsubmit = function (evt){evt.preventDefault();grecaptcha.execute(holderId);};
-			}
-
-
-        })(form);
-    }
-};
-/* ]]> */
-</script>
-<script type="text/javascript" async defer src="https://www.google.com/recaptcha/api.js?onload=renderInvisibleReCaptcha&amp;render=explicit" id="google-invisible-recaptcha-js"></script>
 <script type="text/javascript" src="https://nakamurahiroki2465.github.io/maimy_photo/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
 <script type="text/javascript" src="https://nakamurahiroki2465.github.io/maimy_photo/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
 <script type="text/javascript" src="https://nakamurahiroki2465.github.io/maimy_photo/wp-content/themes/fukasawa/assets/js/global.js" id="fukasawa_global-js"></script>
